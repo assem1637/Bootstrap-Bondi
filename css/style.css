@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --gray-color: #19283F;
+    --green-color: #33d1cc;
+    --red-color: #ff3150;
+    --yellow-color: #ffc400;
+    --number-color: #EFF7FA;
+}
+
+body {
+    height: 3000px;
+}
+
+/* ============================ [Start Nav] ============================ */
+
+nav {
+    background-color: var(--gray-color) !important;
+}
+
+nav .nav-item .nav-link {
+    transition: all 0.4s ease-in-out;
+}
+
+nav .nav-item .nav-link:hover,
+nav .nav-item .nav-link.active,
+nav .nav-item .nav-link:focus {
+    color: var(--green-color) !important;
+}
+
+nav .search {
+    color: var(--green-color) !important;
+}
+
+nav .search > svg {
+    border-left: 1px solid var(--green-color);
+}
+
+nav .btn1 {
+    color: var(--yellow-color) !important;
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #FFF !important;
+}
+
+.navbar-light .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--green-color) !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:none;
+}
+
+
+/* ============================= [End Nav] ============================= */
+
+
+
+/* ============================ [Start Home] ============================ */
+
+.home {
+    padding-top: 1.5rem;
+    background-color: var(--gray-color);
+}
+
+.btn2 {
+    color: var(--yellow-color) !important;
+}
+
+/* ============================= [End Home] ============================= */
+
+
+/* ============================ [Start Services] ============================ */
+
+.services img, 
+.portfolio img,
+.about img, 
+.blog img {
+    width: 8%;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 991px) {
+    .services img, 
+    .portfolio img,
+    .about img,
+    .blog img {
+        width: 15%;
+    }
+}
+
+.services > .container > p::after,
+.portfolio > .container > p::after, 
+.about > .container > p::after,
+.blog > .container > p::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--green-color);
+    height: 2px;
+    width: 10%;
+}
+
+.services .number > h2 {
+    font-size: 12rem;
+    color: var(--number-color);
+}
+
+.services .number > span {
+    font-size: 4rem;
+    color: var(--green-color);
+    top: 75%;
+}
+
+.services .services__box > h2 {
+    color: var(--yellow-color);
+}
+
+.services .services__box > p {
+   font-weight: 400;
+}
+/* ============================= [End Services] ============================= */
+
+
+
+/* ============================ [Start Portfolio] ============================ */
+
+
+.portfolio {
+    background-color: #EFF7FA;
+    min-height: 500px;
+    padding: 70px 0;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--yellow-color) !important;
+    background-color: var(--red-color);
+    border-radius: 20px;
+}
+
+
+.nav-pills .nav-link, .nav-pills .show>.nav-link {
+    margin: 0 5px;
+    font-weight: 500;
+    color: #333 !important;
+}
+
+.portfolio .portfolio__box {
+    border: 5px solid #FFF;
+    border-radius: 5px;
+}
+
+.portfolio .portfolio__box > img {
+    border-radius: 5px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.portfolio .portfolio__box::before {
+    content: "Application";
+    text-align: center;
+    position: absolute;
+    color: #FFF;
+    left: -50px;
+    top: 0;
+    width: 0;
+    border-radius: 5px !important;
+    font-weight: bold;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51 209 204 / 76%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.portfolio .portfolio__box:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+/* ============================= [End Portfolio] ============================= */
+
+
+/* ============================ [Start About] ============================ */
+
+.about .about__box > button {
+    color: var(--yellow-color) !important;
+    background-color: var(--red-color) !important;
+}
+
+/* ============================= [End About] ============================= */
+
+
+/* ============================ [Start Team] ============================ */
+
+.team {
+    min-height: 500px;
+    background-color: #EFF7FA;
+}
+
+.team > .container > h2 {
+    color: var(--yellow-color);
+}
+
+.team > .container > p {
+    font-weight: 500;
+}
+
+.team .team__box > h3 {
+    background-color: var(--green-color) !important;
+}
+
+/* ============================= [End Team] ============================= */
+
+/* ============================ [Start Imgs , Project] ============================ */
+
+.imgs img {
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.imgs img:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+.project {
+    min-height: 250px;
+    background-color: var(--gray-color);
+}
+
+.project button {
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+}
+
+/* ============================= [End Imgs , Project] ============================= */
+
+
+
+
+
+
+/* ============================ [Start Blog , Email] ============================ */
+
+.blog > .container > button {
+    color: var(--yellow-color) !important;
+    background-color: var(--red-color) !important;
+}
+
+.email {
+    min-height: 150px;
+    background-color: var(--yellow-color);
+}
+
+.email .email__box > input {
+    outline: none;
+    color: #FFF !important;
+    border-bottom: 1px solid #FFF !important;
+}
+
+.email .email__box > input::placeholder {
+    color: #FFF;
+}
+
+.email .email__box > button {
+    color: var(--yellow-color) !important;
+    background-color: var(--gray-color) !important;
+    font-weight: 500;
+}
+
+/* ============================= [End Blog , Email] ============================= */
+
+
+/* ============================ [Start Contact] ============================ */
+
+
+.contact {
+    min-height: 400px;
+    background-color: var(--gray-color);
+}
+
+.Graphberry {
+    color: var(--green-color) !important;
+}
+
+.Bondi-Inc {
+    color: var(--yellow-color) !important;
+}
+
+.contact__box > button {
+    color: var(--yellow-color) !important;
+    background-color: var(--red-color) !important;
+}
+.contact__box .icon > svg {
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.contact__box .icon > :nth-child(1) {
+    background-color: #1877F2 !important;
+}
+
+.contact__box .icon > :nth-child(2) {
+    background-color: #1DA1F2 !important;
+}
+
+.contact__box .icon > :nth-child(3) {
+    background-color: #0077B5 !important;
+}
+
+.contact__box .icon > :nth-child(4) {
+    background-color: #FF0000 !important;
+}
+
+.scrollToTop {
+    color: var(--yellow-color) !important;
+    background-color: var(--red-color) !important;
+    bottom: 3%;
+    right: -100%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    z-index: 100000;
+    transition: all 0.7s ease-in-out;
+}
+
+.scrollToTop > svg {
+    transform: rotateY(180deg);
+}
+
+/* ============================= [End Contact] ============================= */

@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo" class="w-100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon d-flex justify-content-center align-items-center text-white"><i class="fs-2 fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active fw-bold mx-lg-2 mx-0 text-light" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold mx-lg-2 mx-0 text-light" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold mx-lg-2 mx-0 text-light" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold mx-lg-2 mx-0 text-light" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold mx-lg-2 mx-0 text-light" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-bold mx-lg-2 mx-0 text-light" href="#contact">Contact</a>
+                </li>
+              </ul>
+              <div class="search"><i class="fs-5 d-lg-block d-none px-3 fa-solid fa-magnifying-glass"></i></div>
+              <button class="btn1 fw-bold px-3 py-2 rounded-pill btn btn-danger">Login</button>
+            </div>
+          </div>
+      </nav>
+    </header>
+
+    <section class="home vh-100 d-flex flex-column justify-content-center align-items-center" id="home">
+      <h1 class="text-light">Taste the Creativity</h1>
+      <p class="text-muted">We make awesome graphic and web design</p>
+      <button class="btn2 fw-bold mt-3 py-2 px-3 btn btn-danger rounded-pill">Get Started</button>
+    </section>
+
+    <section class="services py-5 my-5" id="services">
+      <div class="container text-center">
+        <img src="img/title.png" alt="title" class=""/>
+        <h2>We are Good at</h2>
+        <p class="text-muted position-relative">SOME OF THESE STUFF UNDER</p>
+        <div class="row pt-5 mt-5">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="services__box">
+              <div class="number position-relative">
+                <h2><i class="fa-solid fa-1"></i></h2>
+                <span class="position-absolute left-50 translate-middle"><i class="fa-solid fa-pencil"></i></span>
+              </div>
+              <h2 class="fs-4">GRAPHIC DESIGN</h2>
+              <p class="text-muted">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="services__box">
+              <div class="number position-relative">
+                <h2><i class="fa-solid fa-2"></i></h2>
+                <span class="position-absolute left-50 translate-middle"><i class="fa-solid fa-tv"></i></span>
+              </div>
+              <h2 class="fs-4">GRAPHIC DESIGN</h2>
+              <p class="text-muted">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="services__box">
+              <div class="number position-relative">
+                <h2><i class="fa-solid fa-3"></i></h2>
+                <span class="position-absolute left-50 translate-middle"><i class="fa-solid fa-plug"></i></span>
+              </div>
+              <h2 class="fs-4">GRAPHIC DESIGN</h2>
+              <p class="text-muted">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="portfolio my-5" id="portfolio">
+      <div class="container text-center">
+        <img src="img/title.png" alt="title" class=""/>
+        <h2>We Make This</h2>
+        <p class="text-muted position-relative">PREPARE TO BE AMAZED</p>
+        <ul class="nav nav-pills d-flex justify-content-center align-items-center w-100 my-5" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-All-tab" data-bs-toggle="pill" data-bs-target="#pills-All" type="button" role="tab" aria-controls="pills-All" aria-selected="true">All</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Code-tab" data-bs-toggle="pill" data-bs-target="#pills-Code" type="button" role="tab" aria-controls="pills-Code" aria-selected="false">Code</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-Photo-tab" data-bs-toggle="pill" data-bs-target="#pills-Photo" type="button" role="tab" aria-controls="pills-Photo" aria-selected="false">Photo</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-App-tab" data-bs-toggle="pill" data-bs-target="#pills-App" type="button" role="tab" aria-controls="pills-App" aria-selected="false">App</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-All" role="tabpanel" aria-labelledby="pills-All-tab">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work1.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work2.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work3.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work4.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work5.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work6.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work7.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work8.jpg" class="w-100 p-0">
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work1.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work2.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work6.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work7.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work8.jpg" class="w-100 p-0">
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Code" role="tabpanel" aria-labelledby="pills-Code-tab">
+            <div class="row gy-4">
+              
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work4.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work5.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work6.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work7.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work8.jpg" class="w-100 p-0">
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-Photo" role="tabpanel" aria-labelledby="pills-Photo-tab">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work1.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work2.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work3.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work4.jpg" class="w-100 p-0">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-App" role="tabpanel" aria-labelledby="pills-App-tab">
+            <div class="row gy-4">
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work2.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work3.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work7.jpg" class="w-100 p-0">
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 col-12">
+                <div class="portfolio__box position-relative overflow-hidden w-100 h-100">
+                  <img src="img/work8.jpg" class="w-100 p-0">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about text-center pt-5 overflow-hidden" id="about">
+      <div class="container">
+        <img src="img/title.png" alt="title" class=""/>
+        <h2>We Make This</h2>
+        <p class="text-muted position-relative">PREPARE TO BE AMAZED</p>
+        <span class="text-muted d-inline-block w-75 m-auto my-5">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</span>
+        <div class="row g-5 py-5">
+          <div class="col-lg-6">
+            <div class="about__box text-lg-start text-md-center">
+              <h2>Retina Design</h2>
+              <p class="w-75 text-muted m-lg-0 m-auto my-lg-3 my-3">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.</p>
+              <p class="w-75 text-muted m-lg-0 m-auto my-lg-3 my-3">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+              <button class="btn py-2 rounded-pill">ORDER ME ONE</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about__box w-100">
+              <img src="img/laptop.png" alt="laptop" class="w-100 h-100">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="team py-5" id="team">
+      <div class="container text-center">
+        <h2 class="fw-bold">Meet The Team</h2>
+        <p class="text-black-50 mt-3">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+        <div class="row pt-5 gy-lg-0 gy-5">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team__box">
+              <img src="img/team1.png" alt="team" class="w-100 rounded-top">
+              <h3 class="text-light text-center mb-0 py-3">Luke Skywalker</h3>
+              <p class="bg-white text-black-50 fw-bold text-center mt-0 rounded-bottom py-4 px-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team__box">
+              <img src="img/team2.png" alt="team" class="w-100 rounded-top">
+              <h3 class="text-light text-center mb-0 py-3">Luke Skywalker</h3>
+              <p class="bg-white text-black-50 fw-bold text-center mt-0 rounded-bottom py-4 px-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team__box">
+              <img src="img/team3.png" alt="team" class="w-100 rounded-top">
+              <h3 class="text-light text-center mb-0 py-3">Luke Skywalker</h3>
+              <p class="bg-white text-black-50 fw-bold text-center mt-0 rounded-bottom py-4 px-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="team__box">
+              <img src="img/team4.png" alt="team" class="w-100 rounded-top">
+              <h3 class="text-light text-center mb-0 py-3">Luke Skywalker</h3>
+              <p class="bg-white text-black-50 fw-bold text-center mt-0 rounded-bottom py-4 px-3">“I don't understand how we got by those troops. I thought we were dead.“</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="imgs py-5 overflow-hidden">
+      <div class="container text-center ">
+        <div class="row g-5">
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="imgs__box">
+              <img src="img/tech1.png" alt="tech"  />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="imgs__box">
+              <img src="img/tech2.png" alt="tech" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="imgs__box">
+              <img src="img/tech3.png" alt="tech" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="imgs__box">
+              <img src="img/tech4.png" alt="tech" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="imgs__box">
+              <img src="img/tech5.png" alt="tech" />
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6 col-12">
+            <div class="imgs__box">
+              <img src="img/tech6.png" alt="tech" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="project d-flex justify-content-center align-items-center">
+      <div class="container text-center">
+        <h2 class="text-light">Start Your Project Now</h2>
+        <p class="text-muted fw-bold">Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+        <button class="border-0 px-3 py-2 mt-3 rounded-pill fw-bold">START PROJECT</button>
+      </div>
+    </section>
+
+    <section class="blog py-5 overflow-hidden">
+      <div class="container text-center">
+        <img src="img/title.png" alt="title" />
+        <h2>Read Our Blog</h2>
+        <p class="text-muted position-relative">NEW STORIES</p>
+        <div class="row g-5 py-5">
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card w-100" style="width: 18rem;">
+              <img src="img/blog1.jpg" class="card-img-top w-100 p-0" alt="blog">
+              <div class="card-body">
+                <p class="text-muted fw-bold text-start mb-2">Jan 17, 2022</p>
+                <p class="card-text text-start fw-bold text-black-50">Some Awesome Blog Title Here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card w-100" style="width: 18rem;">
+              <img src="img/blog2.jpg" class="card-img-top w-100 p-0" alt="blog">
+              <div class="card-body">
+                <p class="text-muted fw-bold text-start mb-2">Jan 17, 2022</p>
+                <p class="card-text text-start fw-bold text-black-50">Some Awesome Blog Title Here</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-12">
+            <div class="card w-100" style="width: 18rem;">
+              <img src="img/blog3.jpg" class="card-img-top w-100 p-0" alt="blog">
+              <div class="card-body">
+                <p class="text-muted fw-bold text-start mb-2">Jan 17, 2022</p>
+                <p class="card-text text-start fw-bold text-black-50">Some Awesome Blog Title Here</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn py-2 fw-bold px-3 rounded-pill">MORE STORIES</button>
+      </div>
+    </section>
+
+    <section class="email d-flex justify-content-center align-items-center overflow-hidden">
+      <div class="container">
+        <div class="row g-2 py-5">
+          <div class="col-lg-3 col-md-3">
+            <div class="email__box">
+              <p class="fw-bold fs-5">Subscribe to our Newsletter:</p>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-9">
+            <div class="email__box">
+              <input type="email" placeholder="Entre Email Address" class="w-100 border-0 text-light fw-bold pb-2 px-3 bg-transparent"/>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="email__box">
+              <button class="btn px-3 py-2 rounded-pill ms-lg-3 mt-md-0 mt-3">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <section class="contact overflow-hidden" id="contact">
+    <div class="container">
+      <div class="row py-5 g-3">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="contact__box" id="box1">
+            <img src="img/logo.png" alt="logo" />
+            <p class="text-muted fw-bold my-5">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            <p class="text-muted fw-bold mb-0">Created By <span class="Graphberry">Graphberry</span></p>
+            <p class="text-muted fw-bold">© 2022 - <span class="Bondi-Inc">Bondi Inc</span></p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="contact__box">
+            <h3 class="text-light">Links</h3>
+            <p class="text-muted fw-bold my-2">Home</p>
+            <p class="text-muted fw-bold my-2">Our Services</p>
+            <p class="text-muted fw-bold my-2">Portfolio</p>
+            <p class="text-muted fw-bold my-2">Testimonials</p>
+            <p class="text-muted fw-bold my-2">Support</p>
+            <p class="text-muted fw-bold my-2">Terms and Condition</p>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6 col-12">
+          <div class="contact__box">
+            <h3 class="text-light">About Us</h3>
+            <p class="text-muted fw-bold my-2">Sign In</p>
+            <p class="text-muted fw-bold my-2">Register</p>
+            <p class="text-muted fw-bold my-2">About Us</p>
+            <p class="text-muted fw-bold my-2">Blog</p>
+            <p class="text-muted fw-bold my-2">Contact Us</p>
+            <p class="text-muted fw-bold my-2">Subscribe</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="contact__box">
+            <h3 class="text-light">Contact Us</h3>
+            <p class="text-muted fw-bold">Get in touch with us via mail phone.We are waiting for your call or message</p>
+            <button class="btn rounded-pill fw-bold w-100 py-2 my-3">AssemSaeed@gmail.com</button>
+            <div class="icon mt-3">
+              <i class="fa-brands fa-facebook rounded-circle fs-5 me-2 p-2 text-white"></i>
+              <i class="fa-brands fa-twitter rounded-circle fs-5 me-2 p-2 text-white"></i>
+              <i class="fa-brands fa-linkedin rounded-circle fs-5 me-2 p-2 text-white"></i>
+              <i class="fa-brands fa-youtube rounded-circle fs-5 me-2 p-2 text-white"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <div class="scrollToTop position-fixed d-flex justify-content-center align-items-center rounded-circle">
+    <i class="fa-solid fa-arrow-turn-up"></i>
+   </div>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
